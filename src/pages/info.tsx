@@ -4,11 +4,10 @@ import { Link } from 'gatsby';
 export default function Component() {
 	return (
 		<>
-			<p>This is the HOME page.</p>
+			<p>This is the info page.</p>
 			<p>
-				Go to <Link to="/info">info</Link>.
+				Go back <Link to="/">home</Link>.
 			</p>
 		</>
 	);
 }
-
